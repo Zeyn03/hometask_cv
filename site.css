@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Jost', sans-serif;
+  font-size:13px;
+ 
+  width: 100%;
+  height: 100%;
+  background-color:rgb(254, 243, 243);
+  
+}
+.main_page{
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 30px;
+  margin-bottom:40px;
+  display: flex;
+  width: 30%;
+  height: 90%;
+  box-shadow:100px 100px 150px 80px gray;
+ 
+
+  
+}
+.left_side{
+  background-color:#762626;
+  width: 270px;
+  height: 720px;
+  color: azure;
+}
+.right_side{
+  background-color:antiquewhite;
+  width:650px;
+  height: 720px;
+  color: #762626; 
+}
+
+.image{
+  border-radius: 55px 55px;
+  width: 100px;
+  height: 100px;
+  margin-bottom:10px;
+}
+
+.circle_white_e,.circle_white_t{
+  width:10px;
+  height: 10px;
+  border-radius:5px;
+  background-color:antiquewhite;
+  gap: 20px;
+  margin: 4px;
+}
+.circle_grey_e,.circle_white{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: grey;
+  margin: 4px;
+}
+
+.english,.turkish,.html,.css,.javascript,.react{
+  display: flex;
+  align-items: center;
+
+}
+
+.english_text,.turkish_text,.html_text,.css_text,.javascript_text,.react_text{
+  margin-right:20px;
+}
+
+.circle_red{
+  width:10px;
+  height: 10px;
+  border-radius:5px;
+  background-color:#762626;
+  gap: 20px;
+  margin: 4px;
+}
+
+.general_experience{
+  display: flex;
+  gap: 10px;
+}
+
+.tools{
+  display: flex;
+}
+
+hr{
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+
+.right_hr{
+  height: 3px;
+  background-color: #762626;
+}
+
+.left_all_text,.right_all_text{
+  margin:30px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.contact p,.education p ,.skills p{
+  margin-bottom: 10px;
+}
+.name{
+  font-size: 35px;
+}
+.profession{
+  font-size: 25px;
+}
+.name,.profession{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Profile,.Experience,.Skills{
+  font-size:20px;
+}
+article{
+  margin-bottom: 10px;
+}
+.experience{
+  margin-bottom: 10px;
+}
+span{
+  font-size:15px;
+}
